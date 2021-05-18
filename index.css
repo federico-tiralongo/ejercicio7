@@ -1,0 +1,45 @@
+:root{
+    --color-fondo-cabecera: #5e81d1;
+    --color-fondo-comprados: #f87500;
+    --color-fondo-main: #ff8d27;
+    --altura-main: 200px;
+    --margen-inferior: 20px
+    
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.cabezita{
+    background-color: var(--color-fondo-cabecera);
+    
+ }
+ 
+ .comprados{
+     background-color: var(--color-fondo-comprados);
+ }
+
+ nav{
+     background-color: var(--color-fondo-nav);
+ }
+ 
+h1{
+    color: rgb(8, 8, 7);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 15px;
+    margin-top: auto;
+}
+main{
+   background-color: var(--color-fondo-main);
+   height: var(--altura-main);
+}
+li,ul{
+    list-style-type: none;
+    margin: var(--margen-inferior);
+}
+.precios{
+    display: flex;
+    
+    align-items: flex-end;
+}
